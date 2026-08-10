@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reel</title>
+<!--
+  Strict Content-Security-Policy: everything the app needs (Preact/htm,
+  fonts, the editor code) is vendored locally, so this allows nothing
+  from the network at all. file: is needed for imported media
+  (video/audio/img elements loading local files) and data: for the
+  canvas-generated video thumbnails.
+-->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self';
+  font-src 'self';
+  img-src 'self' file: data:;
+  media-src 'self' file:;
+  connect-src 'none';
+  object-src 'none';
+  base-uri 'none';
+  form-action 'none';
+  frame-src 'none';
+">
+<link rel="stylesheet" href="vendor/fonts/fonts.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app"></div>
+<script src="vendor/preact.umd.js"></script>
+<script src="vendor/htm.js"></script>
+<script src="editor.js"></script>
+</body>
+</html>
