@@ -21,6 +21,6 @@ Licensed under the PolyForm Noncommercial License 1.0.0: free for personal, educ
 
 ## What it doesn't do (yet)
 
-- Windows only: no macOS or Linux build
+- Windows only: no macOS or Linux
 - No color grading, no real audio mixing beyond clip-level fades and mute
 - No plugin system
