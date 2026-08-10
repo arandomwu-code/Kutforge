@@ -12,14 +12,13 @@ Licensed under the PolyForm Noncommercial License 1.0.0: free for personal, educ
 
 ## What it does
 
-- Multi-track timeline — drag clips in, trim, split, fade, duplicate, undo/redo
-- Real ffmpeg export, not a wrapper around someone else's export button — with automatic hardware encoder detection so you're not stuck on software encoding by default
+- Multi-track timeline: drag clips in, trim, split, fade, duplicate, undo/redo
+- Real ffmpeg export
 - Export up to 4K, up to 120fps
-- Autosave, so a crash doesn't cost you the last hour of work
-- Project save/load
+
 
 ## What it doesn't do (yet)
 
-- Windows only — no macOS or Linux build
+- Windows only: no macOS or Linux build
 - No color grading, no real audio mixing beyond clip-level fades and mute
 - No plugin system
