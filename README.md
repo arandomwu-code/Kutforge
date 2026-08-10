@@ -15,6 +15,8 @@ Licensed under the PolyForm Noncommercial License 1.0.0: free for personal, educ
 - Multi-track timeline: drag clips in, trim, split, fade, duplicate, undo/redo
 - Real ffmpeg export
 - Export up to 4K, up to 120fps
+- Autosave, so a crash doesn't cost you the last hour of work
+- Project save/load
 
 
 ## What it doesn't do (yet)
