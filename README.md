@@ -8,7 +8,7 @@ This was built with good intentions, not as hardened production software. I have
 
 ## License
 
-Licensed under the PolyForm Noncommercial License 1.0.0: free for personal, educational, and noncommercial use. Commercial use requires permission.
+Licensed under the PolyForm Noncommercial License 1.0.0. It's free to download, use, modify, and share for personal, educational, and other noncommercial purposes. Any commercial use — including selling it, distributing it as part of a paid product, or otherwise using it for commercial purposes — requires prior written and signed permission from me.
 
 
 
