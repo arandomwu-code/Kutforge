@@ -1,0 +1,23 @@
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Figtree',system-ui,sans-serif;}
+::selection{background:rgba(198,113,57,0.3);}
+a{color:var(--brand);}
+a:hover{color:var(--accent);}
+input[type="range"]{-webkit-appearance:none;appearance:none;background:transparent;}
+input[type="range"]::-webkit-slider-runnable-track{height:4px;border-radius:999px;background:#dcd3c4;}
+input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:14px;height:14px;border-radius:999px;background:var(--accent);margin-top:-5px;cursor:pointer;}
+input[type="range"]::-moz-range-track{height:4px;border-radius:999px;background:#dcd3c4;}
+input[type="range"]::-moz-range-thumb{width:14px;height:14px;border:none;border-radius:999px;background:var(--accent);cursor:pointer;}
+
+/* Custom title bar (Windows/Linux only - see main.js's
+   IS_CUSTOM_TITLEBAR_PLATFORM). Inline styles can't express :hover at all,
+   which is the one thing genuinely needed here. rgba(var(--ink-rgb,...))
+   is the same adaptive pattern the rest of the app already uses for hover/
+   border tints (see renderHeader's own border-bottom, for instance) - ink
+   is near-black on the light themes and near-white on the dark one, so a
+   single rule reads correctly as a subtle highlight in every theme, rather
+   than a fixed white tint that would barely register against a light
+   theme's own light background. Close going red on hover stays fixed
+   regardless of theme - a near-universal convention, not a themed choice. */
+.titlebar-menu-btn:hover,.titlebar-win-btn:hover{background:rgba(var(--ink-rgb, 245,234,216),0.08);}
+.titlebar-close-btn:hover{background:#e5484d !important;color:#fff;}
