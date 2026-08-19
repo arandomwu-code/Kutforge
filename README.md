@@ -1,6 +1,6 @@
 # Kutforge
 
-A free, user-friendly Windows video editor with export up to 4K/120fps: no watermark, no subscription. Please make sure to read the disclaimer and license terms. 
+A free, user-friendly Windows video editor with export up to 4K/120fps: no watermark, no subscription. PLEASE MAKE SURE TO READ THE DISCLAIMER. 
 
 ## Disclaimer
 
