@@ -1,14 +1,9 @@
 # Kutforge
 
-A free, user-friendly Windows video editor with export up to 4K/120fps: no watermark, no subscription. Please make sure to read the disclaimer and license terms.
+A free, user-friendly Windows video editor with export up to 4K/120fps: no watermark, no subscription. Please make sure to read the disclaimer and license terms. 
 
 ## Disclaimer
 
-This was built with good intentions, not as hardened production software. I haven't had it professionally security audited, and a project this size can have bugs or vulnerabilities I don't know about, including ones in the ffmpeg export path or the file/project handling. Use it at your own risk. I'm not liable for damage, data loss, or security incidents resulting from bugs, vulnerabilities, or anyone using this software maliciously. If you find a real vulnerability, please open an issue or reach out rather than exploiting it. BY DOWNLOADING, INSTALLING, OR USING KUTFORGE, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTOOD THIS DISCLAIMER, AND THAT YOU AGREE TO ACCEPT ALL ASSOCIATED RISKS YOURSELF. IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, OR USE THIS SOFTWARE.
-
-## License
-
-Licensed under the PolyForm Noncommercial License 1.0.0. It's free to download, use, modify, and share for personal, educational, and other noncommercial purposes. Any commercial use — including selling it, distributing it as part of a paid product, or otherwise using it for commercial purposes — requires prior written and signed permission from me.
-
+Before downloading, installing, or using Kutforge, please read the full disclaimer, terms and conditions, and license here: [Kutforge.com/home](https://sites.google.com/view/kutforge/home) By downloading, installing, or using Kutforge, you acknowledge that you have read and understood the disclaimer AND license, and that you agree to accept all associated risks yourself. IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, OR USE THIS SOFTWARE.
 
 
